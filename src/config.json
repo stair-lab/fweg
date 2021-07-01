@@ -1,0 +1,54 @@
+{
+    "random_seed": 55,
+    "experiment_configs": {
+        "adult": {
+            "hyper_train_split": 0.33,
+            "val_full_split": 0.01,
+            "epochs": 100,
+            "batch_size": 32
+        },
+        "adult_bb": {
+            "eval_groups": [
+                "gender_Male",
+                "gender_Female"
+            ],
+            "hyper_train_split": 0.33,
+            "val_full_split": 0.1,
+            "epochs": 100,
+            "batch_size": 32
+        },
+        "adult_periodic": {
+            "hyper_train_split": 0.33,
+            "val_full_split": 0.01,
+            "batch_size": 32
+        },
+        "cifar10": {
+            "type": "asym",
+            "noise_p": 0.6,
+            "hyper_train_split": 0.1,
+            "val_full_split": 0.02,
+            "hyper_val_split": 0.5,
+            "epochs": 120,
+            "batch_size": 128,
+            "image_x_size": 32,
+            "image_y_size": 32
+        },
+        "adience": {
+            "hyper_train_split": 0.2,
+            "val_full_split": 0.2,
+            "hyper_val_split": 0.5,
+            "epochs": 20,
+            "batch_size": 32,
+            "image_x_size": 256,
+            "image_y_size": 256
+        },
+        "adience_ablation": {
+            "val_full_split": 0.5,
+            "hyper_val_split": 0.5,
+            "epochs": 20,
+            "batch_size": 32,
+            "image_x_size": 256,
+            "image_y_size": 256
+        }
+    }
+}
