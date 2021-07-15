@@ -73,3 +73,15 @@ Cifar:
 Adience Ablation:
 
 - Val split: [0.01, 0.025, 0.05, 0.075, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5]
+
+## Citation
+
+If you use this code, please cite our paper with the following bibtex.
+
+@inproceedings{hiranandani2021optimizing,
+  title={Optimizing Black-box Metrics with Iterative Example Weighting},
+  author={Hiranandani, Gaurush and Mathur, Jatin and Narasimhan, Harikrishna and Fard, Mahdi Milani and Koyejo, Oluwasanmi},
+  booktitle={International Conference on Machine Learning},
+  year={2021},
+  organization={PMLR}
+}
